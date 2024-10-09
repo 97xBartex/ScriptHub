@@ -19,10 +19,10 @@ local Window = Rayfield:CreateWindow({
       Title = "Key | Bartex Hub",
       Subtitle = "Key System",
       Note = "Get Key Directly From 97xBartex",
-      FileName = "YoutubeHubKey1",
+      FileName = "keys",
       SaveKey = true,
       GrabKeyFromSite = true,
-      Key = {"https://raw.githubusercontent.com/97xBartex/keys/refs/heads/main/keys?token=GHSAT0AAAAAACYWUVKLCNEJ5JZXRKIBGBBMZYGYNOA"} 
+      Key = {"https://raw.githubusercontent.com/97xBartex/keys/refs/heads/main/keys?token=GHSAT0AAAAAACYWUVKLI5N4FKJOLABFYDSKZYGYZYQ"} 
    }
 })
 
