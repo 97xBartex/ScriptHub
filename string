@@ -21,8 +21,8 @@ local Window = Rayfield:CreateWindow({
       Note = "Get Key Directly From 97xBartex",
       FileName = "keys",
       SaveKey = true,
-      GrabKeyFromSite = true,
-      Key = {"https://raw.githubusercontent.com/97xBartex/keys/refs/heads/main/keys"} 
+      GrabKeyFromSite = faLse,
+      Key = {"MENTOSCOLAWOJTEKGOLA"} 
    }
 })
 
