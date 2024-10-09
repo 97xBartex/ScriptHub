@@ -118,6 +118,7 @@ local Input = MainTab:CreateInput({
    end,
 })
 
+if game.PlaceId == 
 local OtherSection = MainTab:CreateSection("Other")
 
 local Toggle = MainTab:CreateToggle({
@@ -128,28 +129,32 @@ local Toggle = MainTab:CreateToggle({
         print("FARMING")
    end,
 })
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-local TPTab = Window:CreateTab("🏝 Teleports", nil) -- Title, Image
-
-local Button1 = TPTab:CreateButton({
-   Name = "Starter Island",
-   Callback = function()
-        --Teleport1
-   end,
-})
-
-local Button2 = TPTab:CreateButton({
-   Name = "Pirate Island",
-   Callback = function()
-        --Teleport2
-   end,
-})
-
-local Button3 = TPTab:CreateButton({
-   Name = "Pineapple Paradise",
-   Callback = function()
-        --Teleport3
-   end,
+local Window = Rayfield:CreateWindow({
+   Name = "🔥 Bartex Script Hub | Game 🔫",
+   LoadingTitle = "🔫 Gun Simulator 💥",
+   LoadingSubtitle = "by 97xBartex",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = Games, -- Create a custom folder for your hub/game
+      FileName = "Example Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+   KeySystem = true, 
+   KeySettings = {
+      Title = "Key | Bartex Hub",
+      Subtitle = "Key System",
+      Note = "Get Key Directly From 97xBartex",
+      FileName = "keys",
+      SaveKey = true,
+      GrabKeyFromSite = faLse,
+      Key = {"MENTOSCOLAWOJTEKGOLA"} 
+   }
 })
 
 local TPTab = Window:CreateTab("🎲 Misc", nil) -- Title, Image
