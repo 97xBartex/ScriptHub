@@ -96,12 +96,12 @@ if state == true then
 				--Colors if beast or not
 				getgenv().LoopBeastColor = game.RunService.Stepped:Connect(function()
 				if v.TempPlayerStatsModule.IsBeast.Value == true then
-					Head.Color3 = Color3.fromRGB(191, 12, 122)
-					Torso.Color3 = Color3.fromRGB(191, 12, 12)
-					LeftArm.Color3 = Color3.fromRGB(191, 12, 12)
-					RightArm.Color3 = Color3.fromRGB(191, 12, 12)
-					RightLeg.Color3 = Color3.fromRGB(191, 12, 12)
-					LeftLeg.Color3 = Color3.fromRGB(191, 12, 12)
+					Head.Color3 = Color3.fromRGB(255, 0, 0)
+					Torso.Color3 = Color3.fromRGB(255, 0, 0)
+					LeftArm.Color3 = Color3.fromRGB(255, 0, 0)
+					RightArm.Color3 = Color3.fromRGB(255, 0, 0)
+					RightLeg.Color3 = Color3.fromRGB(255, 0, 0)
+					LeftLeg.Color3 = Color3.fromRGB(255, 0, 0)
 				elseif v.TempPlayerStatsModule.IsBeast.Value == false then
 					Head.Color3 = Color3.new(228, 242, 43)
 					Torso.Color3 = Color3.new(228, 242, 43)
@@ -739,5 +739,10 @@ local character = game.Players.LocalPlayer.Character
     character.Parent = workspace
 end,
 })
+
+local Label = Home:CreateLabel("This was made by 97xBartex")
+local Label = Home:CreateLabel("For Personal Use ONLY!!!")
+local Label = Home:CreateLabel("If you stole this script, fuck you!")
+local Label = Home:CreateLabel("If 97xBartex shared it with you, you are more then welcome to use this!")
 
 print("Succesfully Executex FTF Gui")
